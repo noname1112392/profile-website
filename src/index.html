@@ -110,13 +110,13 @@
             <!-- About section -->
             <section>
                 <!-- Content container -->
-                <div>
+                <div class="p-5 space-y-5">
                     <!-- Heading container -->
                     <div>
-                        <h1>#About Me</h1>
+                        <h1 class="text-[#BBC5E4] font-medium text-xl">#About Me</h1>
                     </div>
                     <!-- Content container -->
-                    <div>
+                    <div class="space-y-5">
                         <p>Hello! My name is Ton H Nguyen. I am currently a college student at Western Governors
                             University,
                             studying computer science. My journey into this field began when I lost my job at the
@@ -136,14 +136,14 @@
                         <p>
                             Here are a few technologies I've been working with recently:
                         </p>
-                        <div class="flex">
-                            <ul>
+                        <div class="flex justify-around">
+                            <ul class="list-disc">
                                 <li>JavaScript (ES6+)</li>
                                 <li>HTML</li>
                                 <li>TailwindCSS</li>
                                 <li>Jenkins</li>
                             </ul>
-                            <ul>
+                            <ul class="list-disc">
                                 <li>Python3</li>
                                 <li>C++</li>
                                 <li>SQL</li>
@@ -152,8 +152,9 @@
                         </div>
                     </div>
                     <!-- Picture profile container -->
-                    <div>
-                        <img src="/src/img/1664425439572.jpeg" alt="">
+                    <div class="flex justify-center">
+                        <img src="/src/img/1664425439572.jpeg" alt="profile picture" class="rounded-full relative h-80 w-80 z-10">
+                        <div class="absolute w-80 h-80 bottom-4 right-14 rounded-full bg-[#FAAC46] -z-10"></div>
                     </div>
                 </div>
             </section>
