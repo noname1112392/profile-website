@@ -152,34 +152,34 @@
                         </div>
                     </div>
                     <!-- Picture profile container -->
-                    <div class="flex justify-center">
+                    <div class="flex justify-center relative">
                         <img src="/src/img/1664425439572.jpeg" alt="profile picture"
-                            class="rounded-full relative h-80 w-80 z-10">
-                        <div class="absolute w-80 h-80 bottom-50 right-14 rounded-full bg-[#FAAC46] -z-10"></div>
+                            class="rounded-full h-80 w-80 z-10">
+                        <div class="absolute w-80 h-80 rounded-full right-10 bg-[#FAAC46] -z-10"></div>
                     </div>
                 </div>
             </section>
             <!-- Experiences section -->
             <section>
-                <div class="p-5">
+                <div class="p-5 space-y-5">
                     <!-- Heading container -->
                     <div>
                         <h1 class="text-[#BBC5E4] font-medium text-xl">#Where I've Worked</h1>
                     </div>
                     <!-- Content container -->
-                    <div>
+                    <div class="space-y-5">
                         <!-- Tablist container -->
-                        <div class="border border-black overflow-x-scroll space-x-5 h-14 w-auto flex" role="tablist">
+                        <div class="overflow-x-scroll space-x-5 h-14 w-auto flex" role="tablist">
                             <!-- Pivotal Commware -->
-                            <button role="tab" id="tab1" aria-controls="content1" aria-selected="true">
+                            <button role="tab" id="tab1" aria-controls="content1" aria-selected="true" class="border border-black flex items-center">
                                 <span>Pivotal Commware</span>
                             </button>
                             <!-- Boeing -->
-                            <button role="tab" id="tab2" aria-controls="content2">
+                            <button role="tab" id="tab2" aria-controls="content2" class="border border-black p-4"> 
                                 <span>Boeing</span>
                             </button>
                             <!-- Honeywell Aerospace -->
-                            <button role="tab" id="tab3" aria-controls="content3">
+                            <button role="tab" id="tab3" aria-controls="content3" class="border border-black">
                                 <span>Honeywell Aerospace</span>
                             </button>
                         </div>
@@ -187,18 +187,83 @@
                         <!-- Tablist content container -->
                         <div>
                             <!-- Pivotal Commware Content -->
-                            <div role="tabpanel" id="content1" aria-labelledby="tab1">
+                            <div role="tabpanel" id="content1" aria-labelledby="tab1" class="space-y-2">
                                 <!-- Your content for Pivotal Commware -->
-                                
+                                <h3 class="border border-black">
+                                    <span>Technical Fulfillment Operator</span>
+                                    <span>@ Pivotal Commware</span>
+                                </h3>
+                                <p>May 2022 - May 2023</p>
+                                <div class="p-5">
+                                    <ul class="list-disc space-y-2">
+                                        <li>
+                                            Performed software upgrades and assisted in packaging, kitting, and palletization of more than 1,000 products within a span of 6 months.
+                                        </li>
+                                        <li>
+                                            Consistently conducted on time inline quality checks.
+                                        </li>
+                                        <li>
+                                            Operated test equipment, recorded failures, and collaborated closely with the Production Test team to troubleshoot errors and improve yield.
+                                        </li>
+                                        <li>
+                                            Utilized PostgreSQL to update and overview the data.
+                                        </li>
+                                        <li>
+                                            Developed helpful SQL function to identify the ID of the errored unit.
+                                        </li>
+                                        <li>
+                                            Utilized HTML and CSS to assist Production Test team in developing the layout for internal website.
+                                        </li>
+                                        <li>
+                                            Developed Python functions to efficiently retrieve data from Jenkins and integrate it into the internal website.
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                             <!-- Boeing Content -->
                             <div role="tabpanel" id="content2" aria-labelledby="tab2" hidden>
                                 <!-- Your content for Boeing -->
-                                
+                                <h3 class="border border-black">
+                                    <span>Quality Inspector</span>
+                                    <span>@ Boeing <span>
+                                </h3>
+                                <p>May 2022 - May 2023</p>
+                                <div class="p-5">
+                                    <ul class="list-disc space-y-2">
+                                        <li>
+                                            Obtained several certifications such as industrial rivet, fastener, and adhesive bonded aircraft structure.                                        </li>
+                                        <li>
+                                            Inspected 737 and 737-Max on the production lines.
+                                        </li>
+                                        <li>
+                                            Mainly focused on the epoxy bonds, wiring installation, and free of FOD (foreign object debris).
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                             <!-- Honeywell Aerospace Content -->
                             <div role="tabpanel" id="content3" aria-labelledby="tab3" hidden>
                                 <!-- Your content for Honeywell Aerospace -->
+                                <h3 class="border border-black">
+                                    <span>Test Technician</span>
+                                    <span>@ Honeywell Aerospace</span>
+                                </h3>
+                                <p>May 2022 - May 2023</p>
+                                <div class="p-5">
+                                    <ul class="list-disc space-y-2">
+                                        <li>
+                                            Tested roughly 150 Q-Flex accelerometers every day.                                        </li>
+                                        <li>
+                                            Obtained several certifications such as Burn In, Temp cycle, and Centrifuge test certified.
+                                        </li>
+                                        <li>
+                                            Troubleshoot thousands of Honeywell’s Q-Flex accelerometers to help bring the product cost down.
+                                        </li>
+                                        <li>
+                                            Collected test data; provided a list of reasons why the unit failed and provided a list of how it can be fixed, to team-lead and engineers.
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
 
