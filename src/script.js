@@ -45,8 +45,10 @@ window.addEventListener('scroll', () => {
 
     if(scrollTop > lastScrollTop) {
         navBar.style.transform = 'translateY(-80px)';
+        navBar.classList.remove('shadow-xl');
     } else {
         navBar.style.transform = 'translateY(0)';
+        navBar.classList.add('shadow-xl');
     }
     lastScrollTop = scrollTop;
 })
