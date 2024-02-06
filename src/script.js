@@ -34,3 +34,19 @@ tab3.addEventListener('click', () => {
     content1.setAttribute('hidden', '');
     content2.setAttribute('hidden', '');
 });
+
+// Create a scroll where nav will disappear when scroll down
+// But it will reappear when scroll up
+let lastScrollTop = 0;
+
+navBar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+    let scrollTop = window.scrollY || document.documentElement.scrollTop;
+
+    if(scrollTop > lastScrollTop) {
+        navBar.style.transform = 'translateY(-80px)';
+    } else {
+        navBar.style.transform = 'translateY(0)';
+    }
+    lastScrollTop = scrollTop;
+})
