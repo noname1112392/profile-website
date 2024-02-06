@@ -35,9 +35,9 @@
                 <div class="border border-black w-[50px] h-[50px]"></div>
             </div>
             <!-- Navigate to below sections -->
-            <div class="flex justify-between">
+            <div class="hidden md:flex justify-between">
                 <!-- Links box -->
-                <ul class="hidden space-x-5">
+                <ul class="space-x-5">
                     <li>
                         <a href="#About">#About</a>
                     </li>
@@ -51,21 +51,21 @@
                         <a href="#Contact">#Contact</a>
                     </li>
                 </ul>
-                <!-- Resume box -->
+                <!-- Resume box
                 <div>
-                    <!-- Resume Button -->
+                     Resume Button
                     <button class="border border-[#E6391B] p-2 rounded-lg hidden">
                         Resume
                     </button>
-                </div>
-
-                <!-- Mobile: Hamberger button -->
-                <button id="menu-btn" class="block hamburger lg:hidden focus:outline-none" type="button">
-                    <span class="hamburger-top"></span>
-                    <span class="hamburger-middle"></span>
-                    <span class="hamburger-bottom"></span>
-                </button>
+                </div> -->
             </div>
+
+            <!-- Mobile: Hamberger button -->
+            <button id="menu-btn" class="block hamburger focus:outline-none md:hidden" type="button">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
 
             <!-- Mobile Menu -->
             <div id="menu" class="absolute hidden p-6 rounded-lg bg-darkViolet left-6 right-6 top-20 z-100">
@@ -152,10 +152,9 @@
                         </div>
                     </div>
                     <!-- Picture profile container -->
-                    <div class="flex justify-center relative">
+                    <div class="flex justify-center border border-black">
                         <img src="/src/img/1664425439572.jpeg" alt="profile picture"
                             class="rounded-full h-80 w-80 z-10">
-                        <div class="absolute w-80 h-80 rounded-full right-10 bg-[#FAAC46] -z-10"></div>
                     </div>
                 </div>
             </section>
@@ -176,7 +175,8 @@
                                 <span>Pivotal Commware</span>
                             </button>
                             <!-- Boeing -->
-                            <button role="tab" id="tab2" aria-controls="content2" class="border border-black p-4 flex items-center">
+                            <button role="tab" id="tab2" aria-controls="content2"
+                                class="border border-black p-4 flex items-center">
                                 <span>Boeing</span>
                             </button>
                             <!-- Honeywell Aerospace -->
@@ -568,7 +568,7 @@
                 </div>
             </section>
             <!-- Contact section -->
-            <section class="min-h-20 border border-black">
+            <section class="min-h-20">
                 <!-- Content container -->
                 <div class="p-5">
                     <!-- Heading container -->
@@ -576,7 +576,7 @@
                         <h1>#Contact</h1>
                     </div>
                     <!-- Content container -->
-                    <div class="space-y-5">
+                    <div class="space-y-5 border border-black">
                         <div>
                             <div class="flex justify-center">
                                 <h1>Get In Touch</h1>
