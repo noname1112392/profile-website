@@ -16,6 +16,20 @@ function navToggle() {
   
 }
 
+document.addEventListener('scroll', function(event) {
+    // Check if the click is outside the mobile menu and the menu button
+    if (!mobileMenu.contains(event.target) && event.target !== mobileMenuBtn) {
+        // Close the menu
+        closeMenu();
+    }
+});
+
+function closeMenu() {
+    mobileMenuBtn.classList.remove('open');
+    mobileMenu.classList.add('hidden');
+    mobileMenu.classList.remove('flex');
+}
+
 // Tablist functions
 tab1.addEventListener('click', () => {
     content1.removeAttribute('hidden');
