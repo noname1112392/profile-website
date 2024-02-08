@@ -6,6 +6,8 @@ const tab3 = document.getElementById('tab3');
 const content1 = document.getElementById('content1');
 const content2 = document.getElementById('content2');
 const content3 = document.getElementById('content3');
+navBar = document.getElementById('navbar');
+navLink = document.getElementById('navlink')
 
 mobileMenuBtn.addEventListener('click', navToggle);
 
@@ -53,16 +55,17 @@ tab3.addEventListener('click', () => {
 // But it will reappear when scroll up
 let lastScrollTop = 0;
 
-navBar = document.getElementById('navbar');
 window.addEventListener('scroll', () => {
     let scrollTop = window.scrollY || document.documentElement.scrollTop;
 
     if(scrollTop > lastScrollTop) {
         navBar.style.transform = 'translateY(-80px)';
         navBar.classList.remove('shadow-xl');
+        navLink.classList.remove('h-10');
     } else {
         navBar.style.transform = 'translateY(0)';
         navBar.classList.add('shadow-xl');
+        navLink.classList.add('h-10')
     }
     lastScrollTop = scrollTop;
 })
