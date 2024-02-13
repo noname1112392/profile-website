@@ -79,12 +79,17 @@
                     </p>
                     <!-- Resume / Cover letter container -->
                     <div class="space-x-5">
-                        <button class="border border-[#E6391B] p-3 rounded-lg bg-[#E0A967]">
-                            <a href="#Resume" class="font-medium text-[#E6391B]">Resume</a>
-                        </button>
-                        <button class="border border-[#E6391B] p-3 rounded-lg bg-[#E0A967]">
-                            <a href="#Resume" class="font-medium text-[#E6391B]">Cover Letter</a>
-                        </button>
+                        <a href="#Resume" class="group">
+                            <button class="border border-[#E6391B] p-3 rounded-lg bg-[#E0A967] hover:scale-95 active:ring-2 active:ring-[#E6391B]">
+                                <span class="font-medium text-[#E6391B]">Resume</span>
+                            </button>
+                        </a>                        
+                        <a href="#Resume" class="group">
+                            <button class="border border-[#E6391B] p-3 rounded-lg bg-[#E0A967] hover:scale-95 active:ring-2 active:ring-[#E6391B]">
+                                <span class="font-medium text-[#E6391B]">Cover Letter</span>
+                                <div class="group-focus:border-b group-focus:border-[#E6391B]"></div>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -141,7 +146,7 @@
             </section>
             <!-- Experiences section -->
             <section class="min-h-screen" id="experience-section">
-                <div class="p-5 space-y-5 md:mx-[10%] lg:mx-[15%] xl:mx-[20%] 2xl:mx-[25%] 3xl:mx-[30%]">
+                <div class="p-5 space-y-5 mt-[50%] md:mx-[10%] lg:mx-[15%] xl:mx-[20%] 2xl:mx-[25%] 3xl:mx-[30%]">
                     <!-- Heading container -->
                     <div>
                         <h1 class="text-[#A1917D] font-semibold text-xl md:text-3xl">#Where I've Worked</h1>
@@ -152,19 +157,20 @@
                         <div class="space-x-5 h-14 w-auto flex md:flex-col md:space-y-14 md:space-x-0 md:justify-between md:h-80" role="tablist">
                             <!-- Pivotal Commware -->
                             <button role="tab" id="tab1" aria-controls="content1" aria-selected="true"
-                                class="border border-[#E6391B] p-2 rounded-lg bg-[#E0A967] flex items-center justify-center md:p-2 md:justify-center w-52">
-                                <span class="font-medium text-[#E6391B]">Pivotal Commware</span>
+                                class="border border-[#E6391B] p-2 rounded-lg bg-[#E0A967] flex items-center justify-center md:p-2 md:justify-center w-52 hover:scale-95
+                                active:ring-2 active:ring-[#E6391B] group">
+                                <span class="font-medium text-[#E6391B] group-focus:text-black">Pivotal Commware</span>
                             </button>
                             <!-- Boeing -->
                             <button role="tab" id="tab2" aria-controls="content2"
-                                class="border border-[#E6391B] p-2 rounded-lg bg-[#E0A967] flex items-center justify-center md:p-2 md:justify-center w-52">
-                                <span class="font-medium text-[#E6391B]">Boeing</span>
+                                class="border border-[#E6391B] p-2 rounded-lg bg-[#E0A967] flex items-center justify-center md:p-2 md:justify-center w-52 hover:scale-95
+                                active:ring-2 active:ring-[#E6391B] group">
+                                <span class="font-medium text-[#E6391B] group-focus:text-black">Boeing</span>
                             </button>
                             <!-- Honeywell Aerospace -->
                             <button role="tab" id="tab3" aria-controls="content3" class="border border-[#E6391B] p-2 rounded-lg bg-[#E0A967] flex 
-                            justify-center items-center md:p-2 
-                            md:justify-center w-52">
-                                <span class="font-medium text-[#E6391B]">Honeywell Aerospace</span>
+                            justify-center items-center md:p-2 md:justify-center w-52 hover:scale-95 active:ring-2 active:ring-[#E6391B] group">
+                                <span class="font-medium text-[#E6391B] group-focus:text-black">Honeywell Aerospace</span>
                             </button>
                         </div>
 
@@ -583,7 +589,7 @@
                             </p>
                         </div>
                         <div class="flex justify-center">
-                            <button class="border border-[#E6391B] p-3 rounded-lg bg-[#E0A967]">
+                            <button class="border border-[#E6391B] p-3 rounded-lg bg-[#E0A967] hover:scale-95">
                                 <span class="font-medium text-[#E6391B]">Email Me Here!</span>
                             </button>
                         </div>
