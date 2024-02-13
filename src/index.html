@@ -16,7 +16,7 @@
             <!-- Logo box-->
             <div class="">
                 <div class="group">
-                    <a href="index.html" class="font-bold text-[#E6391B] text-2xl">HOME</a>
+                    <a href="index.html" class="font-bold text-[#E6391B] text-xl md:text-3xl">HOME</a>
                     <div class="group-hover:border-2 group-hover:border-[#E6391B]"></div>
                 </div>
             </div>
@@ -51,7 +51,7 @@
             </button>
 
             <!-- Mobile Menu -->
-            <div id="menu" class="absolute hidden p-6 rounded-lg bg-darkViolet left-6 right-6 top-20 z-100 bg-[#E0A967] opacity-80">
+            <div id="menu" class="absolute hidden p-6 rounded-lg bg-darkViolet left-6 right-6 top-20 z-100 bg-[#E6CFA0] opacity-80">
                 <div class="flex flex-col items-center justify-center w-full space-y-6 font-bold text-[#635A4E] rounded-sm">
                     <a href="#about-section" class="w-full text-center text-[#A1917D]">#About</a>
                     <a href="#experience-section" class="w-full text-center text-[#A1917D]">#Experiences</a>
@@ -67,13 +67,13 @@
             <section class="min-h-screen" id="intro">
                 <!-- Content container -->
                 <div class="p-5 mt-[50%] space-y-5 md:mt-[35%] lg:mt-[22%] xl:mt-[15%] 2xl:mt-[10%] 3xl:mt-[5%] md:mx-[10%] lg:mx-[15%] xl:mx-[20%] 2xl:mx-[25%] 3xl:mx-[30%]">
-                    <p class="text-[#E6391B] text-lg">Hi, my name is</p>
+                    <p class="text-[#E6391B] text-xl md:text-xl">Hi, my name is</p>
                     <div>
-                        <h1 class="text-[#A1917D] text-4xl font-medium">Ton H Nguyen.</h1>
-                        <h2 class="text-[#635A4E] text-2xl font-medium">I am a computer science student and i am eager
+                        <h1 class="text-[#A1917D] text-2xl md:text-7xl font-medium">Ton H Nguyen.</h1>
+                        <h2 class="text-[#635A4E] text-xl md:text-5xl font-medium">I am a computer science student and i am eager
                             to learn new things.</h2>
                     </div>
-                    <p class="text-[#635A4E]">I am a computer science student at Western Governors University.
+                    <p class="text-[#635A4E] text-lg md:text-xl">I am a computer science student at Western Governors University.
                         I have learned JAVA, SQL, C++, and DSA in school. I am currently learning about
                         web development and i'm using HTML, JS, and TailwindCSS to build this personal website.
                     </p>
@@ -94,7 +94,7 @@
                 <div class="p-5 space-y-5 md:mx-[10%] lg:mx-[15%] xl:mx-[20%] 2xl:mx-[25%] 3xl:mx-[30%]">
                     <!-- Heading container -->
                     <div>
-                        <h1 class="text-[#E6391B] font-medium text-xl">#About Me</h1>
+                        <h1 class="text-[#A1917D] font-semibold text-xl md:text-3xl">#About Me</h1>
                     </div>
                     <!-- Content container -->
                     <div class="space-y-5 text-[#635A4E]">
@@ -144,7 +144,7 @@
                 <div class="p-5 space-y-5 md:mx-[10%] lg:mx-[15%] xl:mx-[20%] 2xl:mx-[25%] 3xl:mx-[30%]">
                     <!-- Heading container -->
                     <div>
-                        <h1 class="text-[#E6391B] font-medium text-xl">#Where I've Worked</h1>
+                        <h1 class="text-[#A1917D] font-semibold text-xl md:text-3xl">#Where I've Worked</h1>
                     </div>
                     <!-- Content container -->
                     <div class="space-y-5 md:flex md:items-center md:space-x-10 md:flex-row">
@@ -174,10 +174,14 @@
                             <div role="tabpanel" id="content1" aria-labelledby="tab1" class="space-y-2">
                                 <!-- Your content for Pivotal Commware -->
                                 <h3 class="">
-                                    <span>Technical Fulfillment Operator</span>
-                                    <span>@ Pivotal Commware</span>
+                                    <span class="text-[#A1917D]">Technical Fulfillment Operator</span>
+                                    <span class="text-[#E6391B]">
+                                        <a href="https://pivotalcommware.com/" target="_blank">
+                                            @ Pivotal Commware
+                                        </a>
+                                    </span>
                                 </h3>
-                                <p>May 2022 - May 2023</p>
+                                <p class="text-[#635A4E]">May 2022 - May 2023</p>
                                 <div class="p-5 text-[#635A4E]">
                                     <ul class="list-disc space-y-2">
                                         <li>
@@ -212,10 +216,13 @@
                             <div role="tabpanel" id="content2" aria-labelledby="tab2" class="space-y-2" hidden>
                                 <!-- Your content for Boeing -->
                                 <h3 class="">
-                                    <span>Quality Inspector</span>
-                                    <span>@ Boeing <span>
+                                    <span class="text-[#A1917D]">Quality Inspector</span>
+                                    <span class="text-[#E6391B]">
+                                        <a href="https://www.boeing.com/" target="_blank">
+                                            @ Boeing
+                                        </a><span>
                                 </h3>
-                                <p>Feb 2020 - July 2020</p>
+                                <p class="text-[#635A4E]">Feb 2020 - July 2020</p>
                                 <div class="p-5 text-[#635A4E]">
                                     <ul class="list-disc space-y-2">
                                         <li>
@@ -235,10 +242,13 @@
                             <div role="tabpanel" id="content3" aria-labelledby="tab3" class="space-y-2" hidden>
                                 <!-- Your content for Honeywell Aerospace -->
                                 <h3 class="">
-                                    <span>Test Technician</span>
-                                    <span>@ Honeywell Aerospace</span>
+                                    <span class="text-[#A1917D]">Test Technician</span>
+                                    <span class="text-[#E6391B]">
+                                        <a href="https://aerospace.honeywell.com/" target="_blank">
+                                            @ Honeywell Aerospace
+                                        </a></span>
                                 </h3>
-                                <p>Nov 2017 - Feb 2020</p>
+                                <p class="text-[#635A4E]">Nov 2017 - Feb 2020</p>
                                 <div class="p-5 text-[#635A4E]">
                                     <ul class="list-disc space-y-2">
                                         <li>
@@ -269,7 +279,7 @@
                 <div class="p-5 space-y-5 md:mx-[10%] lg:mx-[15%] xl:mx-[20%] 2xl:mx-[25%] 3xl:mx-[30%]">
                     <!-- heading container -->
                     <div>
-                        <h1 class="text-[#E6391B] font-medium text-xl">#Projects I have built</h1>
+                        <h1 class="text-[#A1917D] font-semibold text-xl md:text-3xl">#Projects I have built</h1>
                     </div>
                     <!-- Personal Projects -->
                     <div>
@@ -555,14 +565,14 @@
                 <!-- Content container -->
                 <div class="p-5 md:mx-[10%] lg:mx-[15%] xl:mx-[20%] 2xl:mx-[25%] 3xl:mx-[30%]">
                     <!-- Heading container -->
-                    <div class="text-[#E6391B] font-medium text-xl">
+                    <div class="text-[#A1917D] font-semibold text-xl md:text-3xl">
                         <h1>#Contact</h1>
                     </div>
                     <!-- Content container -->
                     <div class="space-y-5 ">
-                        <div>
+                        <div class="space-y-5">
                             <div class="flex justify-center">
-                                <h1 class="text-[#A1917D]">Get In Touch</h1>
+                                <h1 class="text-[#A1917D] text-4xl font-semibold">Get In Touch</h1>
                             </div>
                             <p class="text-[#635A4E]">
                                 I'm a motivated individual actively seeking internship opportunities in software
@@ -583,7 +593,7 @@
             <!-- Footer section -->
             <footer class="min-h-48 flex justify-center items-center" id="footer-section">
                 <!-- Content Container -->
-                <div class="space-y-2 md:mx-[10%] lg:mx-[15%] xl:mx-[20%] 2xl:mx-[25%] 3xl:mx-[30%]">
+                <div class="space-y-5 md:mx-[10%] lg:mx-[15%] xl:mx-[20%] 2xl:mx-[25%] 3xl:mx-[30%]">
                     <!-- Links Container -->
                     <div class="space-x-5 flex justify-center">
                         <!-- Git -->
@@ -597,7 +607,7 @@
                     </div>
                     <!-- Built by container -->
                     <div class="flex justify-center">
-                        <span>Designed & Built by Ton H Nguyen</span>
+                        <span class="text-[#635A4E]">Designed & Built by Ton H Nguyen</span>
                     </div>
                 </div>
             </footer>
