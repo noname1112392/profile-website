@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwindcss -i src/styles.css -o public/styles.css",
-    "watch": "tailwindcss -i src/styles.css -o public/styles.css --watch"
+    "build": "tailwindcss -i input-style.css -o public/output-style.css",
+    "watch": "tailwindcss -i input-style.css -o public/output-style.css --watch"
 
   },
   "keywords": [],
